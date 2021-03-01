@@ -10,9 +10,10 @@ cookiecutter https://github.com/rajasoun/cookiecutter-ship-it
 Once finished, navigate into your new project folder and run:
 
 ```sh
-cd cookiecutter-ship-it
+cd <project_name>
 git init
-npm install
+git add -A
+git commit
 ```
 
-Ready to go!
+Refer README.md in the created project

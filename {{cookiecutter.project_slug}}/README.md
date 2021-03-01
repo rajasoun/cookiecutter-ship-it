@@ -1,4 +1,6 @@
-# Ship It! 🚀
+# About the Project
+
+## Ship It! 🚀
 
 🚀 Collection of tools that performs git hooks management for linting, code formating, commit message standardization, sutomated versioning and package publishing
 
@@ -22,8 +24,8 @@
 1.  Clone this repository:
 
     ```
-    git clone ghttps://github.com/rajasoun/ship-it
-    cd ship-it
+    cookiecutter https://github.com/rajasoun/cookiecutter-ship-it
+    cd <project_name>
     ```
 
 1.  To enable husky, commitzen, commitlint, prettier and lint-staged
