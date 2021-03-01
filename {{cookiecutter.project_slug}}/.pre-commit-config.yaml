@@ -7,8 +7,11 @@ repos:
           - id: trailing-whitespace
           - id: end-of-file-fixer
           - id: check-json
-          - id: check-added-large-files
           - id: check-yaml
+          - id: detect-private-key
+          - id: detect-aws-credentials
+          - id: check-added-large-files
+            args: ['--maxkb=600']
 
     # ToDo: move this part to a different git hook
     # slows down commit
