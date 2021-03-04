@@ -4,7 +4,10 @@
     "description": "{{ cookiecutter.project_description }}",
     "author":  "{{ cookiecutter.full_name }}",
     "license": "ISC",
-    "private": false,
+    "private": true,
+    "workspaces": [
+        "{{ cookiecutter.project_main_workspace }}"
+    ],
     "scripts": {
         "list-installed-npm-packages": "npm ls --depth=0.",
         "list-outdated-npm-packages": "npm outdated --depth=0.",
